@@ -1,0 +1,81 @@
+
+h1 { text-align: center; }
+
+#cal {
+   width: 100%;
+   max-width: 800px;
+   margin: auto;
+}
+
+#cal > nav {
+   box-sizing: border-box;
+   overflow: hidden;
+   background: #aaf;
+}
+#cal > nav > nav > button {
+   border:none;display:inline-block;padding:8px 16px;vertical-align:middle;overflow:hidden;text-decoration:none;color:inherit;background-color:inherit;text-align:center;cursor:pointer;white-space:nowrap
+}
+
+#cal > nav > nav#monthPlusMinus {
+   text-align: left;
+   float: left;
+   width: 45%;
+   box-sizing: border-box;
+   padding: 0.3em;
+}
+   
+#cal > nav > h2 {
+   float: left;
+   text-align: center;
+   width: 10%;
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0.3em;
+   font-size: 1.3em;
+}
+@media (min-width: 601px){
+
+}
+#cal > nav > nav#yearPlusMinus {
+   float: left;
+   text-align: right;
+   width: 45%;
+   box-sizing: border-box;
+   padding: 0.3em;
+}
+
+#cal > header#daysOfTheWeekHeader {
+   background: #afa;
+   overflow: hidden;
+}
+#cal > header#daysOfTheWeekHeader > span{
+   display: block;
+   width: 14.285%;
+   float: left;
+   box-sizing: border-box;
+   padding: 0.2em;
+   text-align: center;
+}
+
+#cal > article {
+   overflow: hidden;
+}
+#cal > article > div {
+   width: 14.285%;
+   height: 50px;
+   border: 1px solid black;
+   float: left;
+   box-sizing: border-box;
+   padding: 0.2em;
+   text-align: right;
+}
+   
+#cal > article > div.disabledDayOfMonth {
+   background: gray;
+}
+#cal > article > div.todayDayOfMonth {
+   background: #aaf;
+}
+
+
+   
